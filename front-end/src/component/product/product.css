@@ -1,0 +1,50 @@
+.productContainer{
+    display: flex;
+    justify-content: center;
+    text-align: center;  
+
+}
+
+.tablediv{
+    width: 54vw;
+}
+
+.productContainer h1{
+    text-align: center;
+    font-weight: 700;
+    text-shadow: 5px 5px 5px gray;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.searchinp{
+    width: 80%;
+    height: 35px;
+    padding: 5px;
+    margin: 5px 0;
+    font-size: 16px;
+    border-color: rgb(71, 192, 71);
+    border-radius: 10px;
+}
+
+.tablediv table{
+    border: 5px solid black  !important;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.deletebtn{
+    cursor: pointer;
+}
+
+.updatelink{
+    margin-left: 10px;
+}
+
+.updatenavlink{
+    text-decoration: none;
+    color: black;
+}
+
+
+

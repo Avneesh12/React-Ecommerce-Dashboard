@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    height: 70px;
+    background-color: rgb(71, 192, 71);
+}
+
+.logo{
+    display: flex;
+    flex: 3;
+    align-items: center;
+
+}
+
+.navlogo{
+    font-size: 25px;
+    font-weight: 800;
+    margin-left: 40px;
+    border-radius: 50%;
+    padding: 12px;
+    color: aliceblue;
+    text-shadow: 3px 5px 5px black;
+}
+
+.navitem{
+    display: flex;
+    flex: 9;
+    justify-content: flex-end;
+
+}
+
+.navitem ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+
+
+
+}
+.navitem ul li{
+    display: flex;
+    margin-right: 20px;
+
+}
+
+.mylink{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: aliceblue;
+
+}
+
+.uname{
+    color: rgb(71, 192, 71);
+    background: aliceblue;
+    padding: 8px;
+    border-radius: 4px;
+}

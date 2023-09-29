@@ -1,0 +1,72 @@
+.register-container{
+    display: flex;
+    justify-content: center;
+}
+
+.myform{
+    align-items: center;
+    width: 500px;
+    margin-top: 5vh;
+    border: 2px solid black;
+    padding: 50px;
+}
+
+.regtext{
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.myform hr{
+    margin-bottom: 20px;
+}
+
+.inp{
+    padding-top: 10px;
+    width:80%;
+    margin-left: 10%;
+    margin-top: 10px;
+    position: relative;
+}
+
+.errorIcon{
+    position: absolute;
+    left: 95%;
+    top: 15px;
+    color: tomato;
+}
+
+.inp input{
+    width: 100%;
+    height: 1.5rem;
+    padding: 2px;
+    border: 0px;
+    border-bottom: 1px solid grey;
+
+}
+
+input:focus{
+    outline: none;
+}
+
+.mybtn{
+    width: 100%;
+}
+
+.mybtn button{
+    height: 35px;
+    margin-top: 25px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: rgb(71, 192, 71);
+    color: aliceblue;
+    border: 2px solid rgb(231, 226, 226);
+    cursor: pointer;
+}
+
+.mybtn button:hover{
+    color: rgb(71, 192, 71);
+    background-color: aliceblue;
+
+
+}
